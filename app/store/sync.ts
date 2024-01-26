@@ -25,7 +25,7 @@ const isApp = !!getClientConfig()?.isApp;
 export type SyncStore = GetStoreState<typeof useSyncStore>;
 
 const DEFAULT_SYNC_STATE = {
-  provider: ProviderType.WebDAV,
+  provider: ProviderType.UpStash,
   useProxy: true,
   proxyUrl: corsPath(ApiPath.Cors),
 
@@ -36,9 +36,9 @@ const DEFAULT_SYNC_STATE = {
   },
 
   upstash: {
-    endpoint: "",
+    endpoint: "https://apn1-diverse-grubworm-34570.upstash.io",
     username: STORAGE_KEY,
-    apiKey: "",
+    apiKey: "AYcKASQgNTE0YTJiYmUtMzZlZi00MGI3LWEyZTgtYTc1MjlhNDVjYzYxODkyZTQ3YjVlOGYzNDZmOTkxNjNjNmY0NWI1NWRmNGY=",
   },
 
   lastSyncTime: 0,
