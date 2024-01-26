@@ -38,7 +38,7 @@ const DEFAULT_SYNC_STATE = {
   upstash: {
     endpoint: "https://apn1-diverse-grubworm-34570.upstash.io",
     username: STORAGE_KEY,
-    apiKey: "AYcKASQgNTE0YTJiYmUtMzZlZi00MGI3LWEyZTgtYTc1MjlhNDVjYzYxODkyZTQ3YjVlOGYzNDZmOTkxNjNjNmY0NWI1NWRmNGY=",
+    apiKey: "",
   },
 
   lastSyncTime: 0,
