@@ -36,7 +36,7 @@ const DEFAULT_SYNC_STATE = {
   },
 
   upstash: {
-    endpoint: "https://apn1-diverse-grubworm-34570.upstash.io",
+    endpoint: "https://driven-buck-34287.upstash.io",
     username: STORAGE_KEY,
     apiKey: "",
   },
